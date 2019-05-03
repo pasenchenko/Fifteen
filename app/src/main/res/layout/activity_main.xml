@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="New Game"
+        android:onClick="startNewGame"
+        />
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:orientation="horizontal" >
+        <Button android:text="1" android:id="@+id/btn0" android:tag="0" android:background="@android:color/transparent" android:onClick="buttonClick" />
+        <Button android:text="2" android:id="@+id/btn1" android:tag="1" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="3" android:id="@+id/btn2" android:tag="2" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="4" android:id="@+id/btn3" android:tag="3" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="5" android:id="@+id/btn4" android:tag="4" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="6" android:id="@+id/btn5" android:tag="5" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="7" android:id="@+id/btn6" android:tag="6" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="8" android:id="@+id/btn7" android:tag="7" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="9" android:id="@+id/btn8" android:tag="8" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="10" android:id="@+id/btn9" android:tag="9" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="11" android:id="@+id/btn10" android:tag="10" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="12" android:id="@+id/btn11" android:tag="11" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="13" android:id="@+id/btn12" android:tag="12" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="14" android:id="@+id/btn13" android:tag="13" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="15" android:id="@+id/btn14" android:tag="14" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        <Button android:text="" android:id="@+id/btn15" android:tag="15" android:background="@android:color/transparent" android:onClick="buttonClick"/>
+        </GridLayout>
+</LinearLayout>
